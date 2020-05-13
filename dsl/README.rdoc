@@ -1,0 +1,34 @@
+= Domain-Specific Language Pattern
+
+This documentation was developed as part of a programming
+activity for the <em>Software Design and Architecture</em>
+course (_Tc3049_), at the Tecnológico de Monterrey, Campus
+Estado de México.
+
+== Authors
+
+* *A01378916* <em>Rafael Moreno Cañas</em>
+* *A01379896* <em>Erick Bautista Pérez</em>
+
+== Overview
+
+The <b>Domain-Specific Language Pattern (DSL)</b> is a computer language that's targeted to a particular kind of 
+problem, rather than a general purpose language that's aimed at any kind of software problem. Domain-specific 
+languages have been talked about, and used for almost as long as computing has been done.
+
+The UML diagram for this programming activity is as follows:
+
+rdoc-image:img/dsl_uml.png
+
+To test the program, inside the +src+ folder type the following
+instruction at the command line:
+
+            ruby -I . -w jankenpon_test.rb
+
+==References
+
+- \DSL Guide. (2019). Retrieved 27 April 2020, from https://martinfowler.com/dsl.html
+
+
+- \R. Olsen. <em>Design Patterns in Ruby.</em> Addison-Wesley,
+2007.

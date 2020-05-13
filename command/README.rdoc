@@ -1,0 +1,34 @@
+= TemplateCommand Pattern
+
+This documentation was developed as part of a programming
+activity for the <em>Software Design and Architecture</em>
+course (_Tc3049_), at the Tecnológico de Monterrey, Campus
+Estado de México.
+
+== Authors
+
+* *A01378916* <em>Rafael Moreno Cañas</em>
+* *A01379896* <em>Erick Bautista Pérez</em>
+
+== Overview
+
+The <b>Command Pattern</b> is a behavior design pattern used to store the information necessary to call methods at a future time.
+The Command pattern allows requests to be encapsulated as objects, thereby allowing clients to be parametrized with different requests.
+
+The UML diagram for this programming activity is as follows:
+
+rdoc-image:img/command_uml.jpg
+
+To test the program, inside the +src+ folder type the following
+instruction at the command line:
+
+            ruby -I . -w control_test.rb
+
+==References
+
+- \Ruby Design Pattern: Command Method. (2020). Retrieved 29 March 2020, 
+from https://medium.com/@nakshtra17/ruby-design-pattern-command-method-3d1e3f41d39d
+
+
+- \R. Olsen. <em>Design Patterns in Ruby.</em> Addison-Wesley,
+2007.
